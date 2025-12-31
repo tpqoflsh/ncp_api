@@ -27,6 +27,7 @@ Naver Cloud Platform(NCP) API를 직접 호출하여
 ---
 
 ## Architecture
+'''text
 (Event JSON)
 │
 ▼
@@ -37,7 +38,7 @@ Cloud Functions Handler (main.main)
 │  ├─ ServerSnapshot: 스냅샷 생성 + 보관정책
 │  └─ APISender     : NCP API 인증(Signature) 생성 & 요청 전송
 ▼
-NCP Open API (vserver / billing / mail)
+NCP Open API (vserver / billing / mail)'''
 
 ---
 
