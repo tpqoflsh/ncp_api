@@ -27,7 +27,7 @@ Naver Cloud Platform(NCP) API를 직접 호출하여
 ---
 
 ## Architecture
-```text
+```plaintext
 (Event JSON)
 │
 ▼
