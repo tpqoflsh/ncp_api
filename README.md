@@ -27,18 +27,17 @@ Naver Cloud Platform(NCP) API를 직접 호출하여
 ---
 
 ## Architecture
-```plaintext
-(Event JSON)
-│
-▼
-Cloud Functions Handler (main.main)
-│  ├─ ServerValid   : 리소스 조회/검증(서버/스토리지/PublicIP)
-│  ├─ ServerControll: start/stop/정리/크레딧메일
-│  ├─ ServerImage   : 서버 이미지 생성 + 보관정책
-│  ├─ ServerSnapshot: 스냅샷 생성 + 보관정책
-│  └─ APISender     : NCP API 인증(Signature) 생성 & 요청 전송
-▼
-NCP Open API (vserver / billing / mail)```
+(Event JSON)  
+│  
+▼  
+Cloud Functions Handler (main.main)  
+│  ├─ ServerValid   : 리소스 조회/검증(서버/스토리지/PublicIP)  
+│  ├─ ServerControll: start/stop/정리/크레딧메일  
+│  ├─ ServerImage   : 서버 이미지 생성 + 보관정책  
+│  ├─ ServerSnapshot: 스냅샷 생성 + 보관정책  
+│  └─ APISender     : NCP API 인증(Signature) 생성 & 요청 전송  
+▼  
+NCP Open API (vserver / billing / mail)  
 
 ---
 
